@@ -1,0 +1,259 @@
+body {
+	font-family: "Noto Sans KR", sans-serif;
+	}
+h1 {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 1.3em;
+}
+h3 {
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 0.7em;
+}
+h4 {
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 0.6em;
+}
+h5 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.1em;
+}
+h6 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.1em;
+}
+
+.video-wrapper {
+	margin-top: -100px;
+}
+
+
+.hello-description {
+	margin-top: 200px;
+}
+.hammie-blocks {
+	margin-top: 200px;
+}
+.hammmie-blocks img {
+	height: 700px;
+}
+.product-description h3{
+	font-style: inherit;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 75%;
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 1px;
+}
+
+.product-description h6 {
+	font-style: inherit;
+	font-weight: 400;
+	font-size: 17px;
+	color: #0a0a0a;
+	text-align: center;
+	line-height: 1.66em;
+	padding-top: 10 0 0 0px;
+}
+.playing-description p{
+	font-style:inherit;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 75%;
+	color: #333;
+	text-align: center;
+	line-height: 1.66em;
+	padding-top: 10 0 2 0px;
+}
+.carousel-nav {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.carousel-nav a{
+	display: inline-block;
+	padding: 15px;
+	margin-right: 2px;
+	position: relative;
+	font-weight: bold;
+	letter-spacing: 1px;
+	z-index: 2;
+	color: #43474d;
+}
+.product-playing-wrap {
+	margin-top: 20 0 0 0px;
+	width: 100%;
+}
+.building-photo img {
+	width: 100%;
+	height: 480px;
+}
+.coding-photo img {
+	width: 100%;
+	height: 480px;
+}
+.mockup-img {
+	width: 100%;
+	height: 400px;
+}
+
+
+.building-with-description {
+	width: 30%;
+	margin-top: 80px;
+	margin-left: 20%;
+}
+.building-with-img {
+	width: 50%;
+}
+.coding-with-img {
+	width: 50%;
+	margin-top: 80px;
+	margin-left: 20%;
+}
+.coding-with-description {
+	width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meet-hammie-wrapper {
+	width: 100%;
+	margin: auto 0;
+	height: 360px;
+	background: URL(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/15589621_1798399847093477_1092704647170781368_n.jpg?oh=2afe8b27e486a1f57074e3ef3c64387e&oe=597A6DA2) center center no-repeat;
+	background-size: cover;
+}
+.meet-hammie-wrapper .hammie-logo {
+	display: block;
+	width: 100px;
+	margin: auto;
+	padding-top: 60px;
+}
+.meet-hammie-wrapper h2 {
+	font-size: 1.6em;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.meet-hammie-wrapper h4 {
+	font-size: 1.4em;
+}
+.meet-hammie-wrapper h2, h4 {
+	color: white;
+	text-align: center;
+	margin-top: 0.8em;
+}
+.shop-pink-btn {
+	display: block;
+	padding: 10px 0px 12px;
+	width: 190px;
+	margin: 35px auto;
+	background-color: pink;
+	text-align: center;
+	color: white;
+	border-radius: 2em;
+	transition: all .3s ease;
+}
+.philosophy-wrapper img{
+	width:100%;
+	height: 400px;
+}
+.container-advantage {
+  padding: 0px 15px 0px 15px;
+  margin: auto;
+}
+.advantage-img {
+	width: 180px;
+	height: 150px;
+	display: block;
+	margin: auto;
+}
+.advantage-description {
+	text-align: center;
+	margin-right: 20px;
+}
+.package-picture-img {
+	width: 100%;
+	height: 400px;
+}
+.order {
+	margin-top: 100px;
+	margin-bottom: 200px;
+}
+.order-description {
+	margin-top: 100px;
+}
+
+footer {
+	background-color: grey;
+}
+.form-footer {
+	margin-top: 20px;
+}
+#footer-logo-img {
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+}
+.title-footer h4 {
+	color: black;
+	font-size: 1.3em;
+}
+.subscribe-input {
+	font-size: 14px;
+	width: 350px;
+}
+.philosophy-photo {
+	width: 100%;
+}
+.philosophy-description {
+	text-align: center;
+}
+.opportunity{
+	background-color: #eee;
+}
+.creations-photo {
+}
+.creations h2{
+	text-align: center;
+	margin-top: 40px;
+}
+.opportunity-contents {
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
