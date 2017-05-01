@@ -4274,6 +4274,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-color: pink;
     transition: all .3s ease;
   }
+  .shop-icon a:hover {
+    background-color: # 39cdce
+  }
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 5px;

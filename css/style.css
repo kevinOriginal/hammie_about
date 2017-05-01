@@ -41,7 +41,7 @@ h6 {
 	margin-top: 200px;
 }
 .hammie-blocks {
-	margin-top: 200px;
+	margin-top: 50px;
 }
 .hammmie-blocks img {
 	height: 700px;
@@ -124,34 +124,6 @@ h6 {
 .coding-with-description {
 	width: 30%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .meet-hammie-wrapper {
 	width: 100%;
 	margin: auto 0;
@@ -182,11 +154,14 @@ h6 {
 	padding: 10px 0px 12px;
 	width: 190px;
 	margin: 35px auto;
-	background-color: pink;
+	background-color: #39cdce;
 	text-align: center;
 	color: white;
 	border-radius: 2em;
 	transition: all .3s ease;
+}
+.shop-pink-btn:hover {
+	background-color: pink;
 }
 .philosophy-wrapper img{
 	width:100%;
@@ -217,43 +192,80 @@ h6 {
 .order-description {
 	margin-top: 100px;
 }
+.img-mainlogo {
+	width: 200px;
+}
+footer.nb-footer {
+	background: #222;
+	border-top: 4px solid #fff87a; }
+footer.nb-footer .about {
+	margin: 0 auto;
+	margin-top: 40px;
+	max-width: 1170px;
+	text-align: center; }
+footer.nb-footer .about p {
+	font-size: 13px;
+	color: #999;
+	margin-top: 30px; }
+footer.nb-footer .about .social-media {
+	margin-top: 15px; }
+footer.nb-footer .about .social-media ul li a {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	font-size: 16px;
+	color: #fff87a;
+	border: 1px solid rgba(255, 255, 255, 0.3); }
+footer.nb-footer .about .social-media ul li a:hover {
+	background: #fff87a;
+	color: #fff;
+	border-color: #fff87a; }
+footer.nb-footer .footer-info-single {
+	margin-top: 30px; }
+footer.nb-footer .footer-info-single .title {
+	color: #aaa;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-left: 4px solid #fff87a;
+	padding-left: 5px; }
+footer.nb-footer .footer-info-single form input{
+	height: 35px;
+	width: 500px;
 
-footer {
-	background-color: grey;
+}	
+footer.nb-footer .footer-info-single form button{
+	line-height: 31px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    background-color: #fff87a;
 }
-.form-footer {
-	margin-top: 20px;
+
+
+
+footer.nb-footer .footer-info-single ul li a {
+	display: block;
+	color: #aaa;
+	padding: 2px 0; }
+footer.nb-footer .footer-info-single ul li a:hover {
+	text-decoration: none;
+	color: #fff87a; }
+footer.nb-footer .footer-info-single p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #aaa; }
+footer.nb-footer .copyright {
+	margin-top: 5px;
+	background: #111;
+	padding: 5px 0;
+	color: #999; }
+footer.nb-footer .copyright p {
+	text-align: center;
+	margin: 0;
+	padding: 0; 
 }
-#footer-logo-img {
-	width: 80px;
-	height: 80px;
-	margin-top: 10px;
-}
-.title-footer h4 {
-	color: black;
-	font-size: 1.3em;
-}
-.subscribe-input {
+footer.subscribe-input {
 	font-size: 14px;
 	width: 350px;
-}
-.philosophy-photo {
-	width: 100%;
-}
-.philosophy-description {
-	text-align: center;
-}
-.opportunity{
-	background-color: #eee;
-}
-.creations-photo {
-}
-.creations h2{
-	text-align: center;
-	margin-top: 40px;
-}
-.opportunity-contents {
-	text-align: center;
-	margin-top: 150px;
-	margin-bottom: 150px;
 }
