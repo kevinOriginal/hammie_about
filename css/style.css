@@ -1,5 +1,5 @@
 body {
-	font-family: "Noto Sans KR", sans-serif;
+	font-family: "Nunito", serif; 
 	}
 h1 {
 	font-size: 40px;
@@ -90,6 +90,9 @@ h6 {
 	z-index: 2;
 	color: #43474d;
 }
+.carousel-img {
+
+}
 .product-playing-wrap {
 	margin-top: 20 0 0 0px;
 	width: 100%;
@@ -105,9 +108,29 @@ h6 {
 .mockup-img {
 	width: 100%;
 	height: 400px;
+}/*
+.building-with-description {
+	padding: 5% 0 0 25%;
+	height: ;
 }
+.building-with-img 
+.building-with-p
+.building-img {
+	width: 700px;
+	height: 1200px;	
+} 
+.coding-with-img {
+	padding-left: 25%;
 
+}
+.coding-with-description {
+	padding-top: 5%;
+}
+.coding-with-icon
+.coding-with-p
+*/
 
+/*
 .building-with-description {
 	width: 30%;
 	margin-top: 80px;
@@ -118,12 +141,14 @@ h6 {
 }
 .coding-with-img {
 	width: 50%;
-	margin-top: 80px;
 	margin-left: 20%;
 }
 .coding-with-description {
 	width: 30%;
+	margin-top: 80px;
+	margin-right: 10%;
 }
+*/
 .meet-hammie-wrapper {
 	width: 100%;
 	margin: auto 0;
@@ -167,9 +192,21 @@ h6 {
 	width:100%;
 	height: 400px;
 }
+.advantage .container-fluid {
+	background-color: orange;
+}
+
+
+
 .container-advantage {
   padding: 0px 15px 0px 15px;
   margin: auto;
+}
+
+
+
+.advantage {
+	color: white;
 }
 .advantage-img {
 	width: 180px;
@@ -179,6 +216,7 @@ h6 {
 }
 .advantage-description {
 	text-align: center;
+	margin-top: -15px;
 	margin-right: 20px;
 }
 .package-picture-img {
@@ -195,72 +233,69 @@ h6 {
 .img-mainlogo {
 	width: 200px;
 }
-footer.nb-footer {
-	background: #222;
-	border-top: 4px solid #fff87a; }
-footer.nb-footer .about {
+footer.hm-footer {
+	background: #86cec5;
+	border-top: 4px solid #ffdd1c; }
+footer.hm-footer .about {
 	margin: 0 auto;
 	margin-top: 40px;
 	max-width: 1170px;
 	text-align: center; }
-footer.nb-footer .about p {
+footer.hm-footer .about p {
 	font-size: 13px;
 	color: #999;
 	margin-top: 30px; }
-footer.nb-footer .about .social-media {
+footer.hm-footer .about .social-media {
 	margin-top: 15px; }
-footer.nb-footer .about .social-media ul li a {
+footer.hm-footer .about .social-media ul li a {
 	display: inline-block;
 	width: 45px;
 	height: 45px;
 	line-height: 45px;
 	border-radius: 50%;
 	font-size: 16px;
-	color: #fff87a;
+	color: #ffdd1c;
 	border: 1px solid rgba(255, 255, 255, 0.3); }
-footer.nb-footer .about .social-media ul li a:hover {
-	background: #fff87a;
+footer.hm-footer .about .social-media ul li a:hover {
+	background: #ffdd1c;
 	color: #fff;
-	border-color: #fff87a; }
-footer.nb-footer .footer-info-single {
+	border-color: #ffdd1c; }
+footer.hm-footer .footer-info-single {
 	margin-top: 30px; }
-footer.nb-footer .footer-info-single .title {
+footer.hm-footer .footer-info-single .title {
 	color: #aaa;
 	text-transform: uppercase;
 	font-size: 16px;
-	border-left: 4px solid #fff87a;
+	border-left: 4px solid #ffdd1c;
 	padding-left: 5px; }
-footer.nb-footer .footer-info-single form input{
+footer.hm-footer .footer-info-single form input{
 	height: 35px;
-	width: 500px;
+	width: 450px;
 
 }	
-footer.nb-footer .footer-info-single form button{
+footer.hm-footer .footer-info-single form button{
 	line-height: 31px;
     font-size: 1.1em;
     border-radius: 8px;
-    background-color: #fff87a;
+    background-color: #ffdd1c;
 }
-
-
-
-footer.nb-footer .footer-info-single ul li a {
+footer.hm-footer .footer-info-single ul li a {
 	display: block;
 	color: #aaa;
 	padding: 2px 0; }
-footer.nb-footer .footer-info-single ul li a:hover {
+footer.hm-footer .footer-info-single ul li a:hover {
 	text-decoration: none;
-	color: #fff87a; }
-footer.nb-footer .footer-info-single p {
+	color: #ffdd1c; }
+footer.hm-footer .footer-info-single p {
 	font-size: 13px;
 	line-height: 20px;
 	color: #aaa; }
-footer.nb-footer .copyright {
+footer.hm-footer .copyright {
 	margin-top: 5px;
-	background: #111;
+	background: #86cec5;
 	padding: 5px 0;
 	color: #999; }
-footer.nb-footer .copyright p {
+footer.hm-footer .copyright p {
 	text-align: center;
 	margin: 0;
 	padding: 0; 

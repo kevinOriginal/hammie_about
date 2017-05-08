@@ -6,7 +6,7 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -1585,7 +1585,6 @@ pre code {
   }
 }
 .container-fluid {
-  position: fixed;
   width: 100%;
 
   z-index: 1000;
@@ -1593,7 +1592,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color:transparent;
+  background-color: #86cec5;
 }
 .row {
   margin-right: -15px;
@@ -4071,8 +4070,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
-
   }
+}
+.navbar-header img {
+  margin-top: -15px;
+  height: 50px;
+  width: 50px;
 }
 .navbar-collapse {
   padding-right: 15px;
@@ -4225,7 +4228,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 20px;
   padding-bottom: 20px;
-  line-height: 20px;
+  line-height: 18px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
