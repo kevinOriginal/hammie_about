@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 body {
-	font-family: "Nunito", serif; 
-	}
+  font-family: 'Nunito', serif;
+  font-weight: 400; 
+}
+
 h1 {
 	font-size: 40px;
 	font-weight: 600;
@@ -32,14 +36,105 @@ h6 {
 	line-height: 1.1em;
 }
 
-.video-wrapper {
-	margin-top: -100px;
+.navbar {
+	background-color: #86cec5 !important;
+}
+.navbar-header img {
+	width: 80px;
+	height: 80px;
+}
+<nav class="navbar navbar-default">
+	        <div class="container-fluid">
+	          <!-- Brand and toggle get grouped for better mobile display -->
+		        <div class="navbar-header">
+	              <a class="navbar-brand" href="#">
+	                <img alt="Brand" src="images/logo_HHL.png">
+	              </a>
+	            </div>
+	            <div class="navbar-header">
+	              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	              </button>
+	            </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+            	<ul class="nav navbar-nav navbar-right">
+              		<li>Building with Hammie</li>
+              		<li>Coding with Hammie</li>
+              		<li><a class="shop-icon" href="#">SHOP NOW<span class="sr-only">(shop now)</span></a></li>
+            	</ul>
+        	</div>
+      	</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-default {
+  background-color: none;
+  border-color: none;
+}
+.navbar-default .navbar-brand {
+  color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-default .navbar-text {
+  color: #777;
 }
 
+
+
+
+.video-wrapper {
+	margin-top: -100px;
+	margin-bottom: 10%;
+}
 
 .hello-description {
 	margin-top: 200px;
 }
+.char-spec {
+	margin-top: 10%;
+}
+.big-greetings {
+	padding-top: 5%;
+}
+
+
 .hammie-blocks {
 	margin-top: 50px;
 	text-align: center;
@@ -92,7 +187,7 @@ h6 {
 	padding-top: 15%;
 	padding-right: 5%;
 }
-.colding-with-p {
+.coding-with-p {
 	padding-top: 10%;
 }
 .coding-with-img img {
