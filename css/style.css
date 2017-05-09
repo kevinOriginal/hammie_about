@@ -77,44 +77,59 @@ h6 {
 	line-height: 1.66em;
 	padding-top: 10 0 2 0px;
 }
-.carousel-nav {
-	margin-bottom: 20px;
+
+.building-with-description {
+	padding-top: 15%;
+	padding-left: 5%;
+}
+.building-with-p {
+	padding-top: 10%;
+}
+.building-with-img img{
+	width: 100%;
+}
+.coding-with-description {
+	padding-top: 15%;
+	padding-right: 5%;
+}
+.colding-with-p {
+	padding-top: 10%;
+}
+.coding-with-img img {
+	width: 100%;
+}
+.more-orange-btn {
+	font-size: 1.1em;
+	display: block;
+	padding: 5px 3px 5px 3px;
+	width: 120px;
 	text-align: center;
+	color: #f99426 ;
+	border: 2px solid #f99426;
+	border-radius: 2em;
+	transition: all .3s ease;
 }
-.carousel-nav a{
-	display: inline-block;
-	padding: 15px;
-	margin-right: 2px;
-	position: relative;
-	font-weight: bold;
-	letter-spacing: 1px;
-	z-index: 2;
-	color: #43474d;
+.more-orange-btn:hover {
+	font-size: 1.1em;
+	color: black;
+	background-color: #f99426 ;
 }
-.carousel-img {
-
+.more-blue-btn {
+	font-size: 1.1em;
+	display: block;
+	padding: 5px 3px 5px 3px;
+	width: 120px;
+	text-align: center;
+	color: #0983B2;
+	border: 2px solid #0983B2;
+	border-radius: 2em;
+	transition: all .3s ease;
 }
-.product-playing-wrap {
-	margin-top: 20 0 0 0px;
-	width: 100%;
+.more-blue-btn:hover {
+	font-size: 1.1em;
+	color: black;
+	background-color: #0983B2;
 }
-.building-photo img {
-	width: 100%;
-	height: 480px;
-}
-.coding-photo img {
-	width: 100%;
-	height: 480px;
-}
-.mockup-img {
-	width: 100%;
-	height: 400px;
-}
-
-
-
-
-
 
 
 
