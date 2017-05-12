@@ -68,38 +68,6 @@ h6 {
       	</nav>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navbar-default {
   background-color: none;
   border-color: none;
@@ -129,12 +97,17 @@ h6 {
 }
 .char-spec {
 	margin-top: 10%;
+	border-top: 3px solid #86cec5;
 }
 .big-greetings {
 	padding-top: 5%;
 }
-
-
+.big-greetings h2, h3{
+	color: #86cec5;
+}
+.big-greetings p {
+	font-weight: 900;
+}
 .hammie-blocks {
 	margin-top: 50px;
 	text-align: center;
@@ -174,7 +147,7 @@ h6 {
 }
 
 .building-with-description {
-	padding-top: 15%;
+	padding-top: 5%;
 	padding-left: 5%;
 }
 .building-with-p {
@@ -184,7 +157,7 @@ h6 {
 	width: 100%;
 }
 .coding-with-description {
-	padding-top: 15%;
+	padding-top: 5%;
 	padding-right: 5%;
 }
 .coding-with-p {
