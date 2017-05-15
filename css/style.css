@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400; 
+  font-family: 'Nunito-black', sans-serif;
 }
 
 h1 {
@@ -64,9 +63,9 @@ h6 {
 	display: inline-block;
 	color: white;
 	padding: 10px 30px 7px;
-	border: 3px solid white;
+	border: 0.18em solid pink;
 	border-radius: 2em;
-	background-color: rgba(255, 114, 143, 0.9);
+	background-color: rgba(255, 114, 143, 1.8);
 	transition: all .3s ease;
 }
 
@@ -203,8 +202,22 @@ h6 {
 	color: black;
 	background-color: #0983B2;
 }
-
-
+.philosophy-container {
+	padding-bottom: 10%;
+}
+.philosophy-description h3 {
+	text-align: center;
+}
+.philosophy-description p {
+	text-align: center;
+	padding: 2% 0 2% 0;
+	font-size: 1.3em;
+	font-weight: 900;
+	color: #86cec5;
+}
+.philosophy-mozaic img {
+	max-width: 100%;
+}
 
 
 
@@ -265,7 +278,7 @@ h6 {
 }
 .advantage .container-advantage {
 	background-color: #ffdd1c;
-	background-image: url(images/pattern.jpg);
+	background-image: url("../images/pattern.jpg");
 	background-repeat:repeat-x;
 }
 .container-advantage {
@@ -307,9 +320,15 @@ h6 {
 .img-mainlogo {
 	width: 200px;
 }
+.block-scattering img{
+	width:100%;
+	z-index: -40;	
+}
+
 footer.hm-footer {
-	background: #86cec5;
-	border-top: 4px solid #ffdd1c; }
+	background: url(../images/footer_Background.png) center repeat-x;
+	
+}
 footer.hm-footer .about {
 	margin: 0 auto;
 	margin-top: 40px;
