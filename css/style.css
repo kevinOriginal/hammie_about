@@ -16,74 +16,33 @@ h2 {
 }
 h3 {
 	font-size: 3.5em;
-	font-weight: 500;
+	font-weight: 900;
 }
 h4 {
 	font-size: 1.8em;
-	font-weight: 500;
+	font-weight: 900;
 }
 h5 {
 	font-size: 24px;
-	font-weight: 500;
+	font-weight: 900;
 	line-height: 1.1em;
 }
 h6 {
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 900;
 	line-height: 1.1em;
 }
 
 .navbar {
 	background-color: #86cec5 !important;
 }
-.navbar-header img {
+.navbar-brand {
+	padding: 0 10px 10px !important;
+}
+.navbar-brand img {
 	width: 80px;
 	height: 80px;
 }
-<nav class="navbar navbar-default">
-	        <div class="container-fluid">
-	          <!-- Brand and toggle get grouped for better mobile display -->
-		        <div class="navbar-header">
-	              <a class="navbar-brand" href="#">
-	                <img alt="Brand" src="images/logo_HHL.png">
-	              </a>
-	            </div>
-	            <div class="navbar-header">
-	              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	              </button>
-	            </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-            	<ul class="nav navbar-nav navbar-right">
-              		<li>Building with Hammie</li>
-              		<li>Coding with Hammie</li>
-              		<li><a class="shop-icon" href="#">SHOP NOW<span class="sr-only">(shop now)</span></a></li>
-            	</ul>
-        	</div>
-      	</nav>
-
-
-.navbar-default {
-  background-color: none;
-  border-color: none;
-}
-.navbar-default .navbar-brand {
-  color: #777;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
-  background-color: transparent;
-}
-.navbar-default .navbar-text {
-  color: #777;
-}
-
-
-
-
 .video-wrapper {
 	margin-top: -100px;
 	margin-bottom: 10%;
@@ -93,7 +52,8 @@ h6 {
 	margin-top: 200px;
 }
 .char-spec {
-	margin-top: 3%;
+	margin-top: 5%;
+	padding-top: 3%;
 	border-top: 3px solid #86cec5;
 }
 .big-greetings {
@@ -101,16 +61,27 @@ h6 {
 }
 .big-greetings h2, h3{
 	color: #3de2da;
-
 }
 .big-greetings p {
 	font-size: 1.3em;
 	font-weight: 900;
-	color: #3de2da;
+	color: #86cec5;
 }
 .hammie-blocks {
-	margin-top: 50px;
+	margin-top: 10%;
 	text-align: center;
+}
+.hammie-blocks h3{
+	color: black;
+}
+.color-green {
+	color: #2fb2bc;
+}
+.hammie-blocks p {
+	padding-top: 5%;
+	font-size: 1.3em;
+	font-weight: 900;
+	color: #86cec5;
 }
 .hammie-blocks img {
 	width: 100%;
@@ -153,15 +124,22 @@ h6 {
 .building-with-p {
 	padding-top: 10%;
 }
+.building-with-p p{
+	text-align: ju
+}
 .building-with-img img{
 	width: 100%;
 }
 .coding-with-description {
 	padding-top: 5%;
 	padding-right: 5%;
+	padding-bottom: 5%;
 }
 .coding-with-p {
 	padding-top: 10%;
+}
+.coding-with-p p{
+	text-align: justify;
 }
 .coding-with-img img {
 	width: 100%;
@@ -258,20 +236,17 @@ h6 {
 	width:100%;
 	height: 400px;
 }
-.advantage .container-fluid {
-	background-color: #ffdd1c
+.advantage .container-advantage {
+	background-color: #ffdd1c;
+	background-image: url(images/pattern.jpg);
+	background-repeat:repeat-x;
 }
-
-
-
 .container-advantage {
-  padding: 0px 15px 0px 15px;
-  margin: auto;
-}
-
-.advantage {
+	padding: 0px 15px 0px 15px;
+	margin: auto;
 
 }
+
 .advantage-img {
 	width: 180px;
 	height: 150px;
@@ -287,7 +262,10 @@ h6 {
 .advantage-description h4 {
 	color: #2fb2bc;	
 }
-
+.advantage-description p {
+	font-size: 1.4em;
+	color: #2fb2bc;
+}
 .package-picture-img {
 	width: 100%;
 	height: 400px;

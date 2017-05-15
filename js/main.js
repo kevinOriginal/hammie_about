@@ -32,8 +32,8 @@ $(document).ready(function(){
 		$("#char33").hide();
 		$("#char44").hide();
 		$("img[id=img-22]").attr("src", "images/Char2.png");
-		$("img[id=img-33]").attr("src", "images/Char2.png");
-		$("img[id=img-44]").attr("src", "images/Char2.png");
+		$("img[id=img-33]").attr("src", "images/Char3.png");
+		$("img[id=img-44]").attr("src", "images/Char4.png");
 			
 	});
 
