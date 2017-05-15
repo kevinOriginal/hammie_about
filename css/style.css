@@ -34,17 +34,44 @@ h6 {
 }
 
 .navbar {
-	background-color: #86cec5 !important;
+	background-color: #3de2da !important;
+}
+.navbar-default {
+	border-color: #3de2da !important;
 }
 .navbar-brand {
-	padding: 0 10px 10px !important;
+	padding: 0 20px 10px !important;
 }
 .navbar-brand img {
 	width: 80px;
 	height: 80px;
 }
+.nav {
+	font-size: 1.6em;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	text-align: center;
+	line-height: 25px;
+}
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 12px;
+}
+.shop-btn a{
+	font-size: 0.9em;
+	display: inline-block;
+	color: white;
+	padding: 10px 30px 7px;
+	border: 3px solid white;
+	border-radius: 2em;
+	background-color: rgba(255, 114, 143, 0.9);
+	transition: all .3s ease;
+}
+
 .video-wrapper {
-	margin-top: -100px;
+	margin-top: -140px;
 	margin-bottom: 10%;
 }
 
