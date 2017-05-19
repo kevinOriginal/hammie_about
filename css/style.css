@@ -82,7 +82,7 @@ h6 {
 	font-size: 0.9em;
 	display: inline-block;
 	color: white;
-	padding: 10px 30px 7px;
+	padding: 10px 30px 30px 10px;
 	border: 0.18em solid pink;
 	border-radius: 2em;
 	background-color: rgba(255, 114, 143, 1.8);
@@ -370,7 +370,6 @@ h6 {
 	width: 200px;
 }
 .block-scattering img{
-
 	width:100%;
 	z-index: -40;	
 }
@@ -411,7 +410,10 @@ h6 {
 .philosophy-mozaic img {
 	padding-left: 4%;
 	max-width: 100%;
-	
+}
+.philosophy-mozaic h3 {
+	text-align: center;
+	padding: 10% 0 7% 0;
 }
 
 .hm-team {
@@ -517,6 +519,7 @@ footer.hm-footer .copyright {
 	padding: 5px 0;
 	color: #696969; }
 footer.hm-footer .copyright p {
+	font-family: 'Nunito-black';
 	text-align: center;
 	margin: 0;
 	padding: 0; 
