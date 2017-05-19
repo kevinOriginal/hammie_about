@@ -54,6 +54,10 @@ h6 {
 .nav {
 	font-size: 1.6em;
 }
+.nav-li-a {
+	margin-top: 8% !important;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: white;
 	text-align: center;
@@ -83,13 +87,23 @@ h6 {
 	background-color: rgba(255, 114, 143, 1.8);
 	transition: all .3s ease;
 }
-
-
+.shop-now-btn{
+	font-size: 1.8em;
+	display: inline-block;
+	color: white;
+	padding: 10px 30px 7px;
+	border: 0.18em solid pink;
+	border-radius: 2em;
+	margin-left: 20%;
+	margin-bottom: -0.55%;
+	background-color: rgba(255, 114, 143, 1.8);
+	transition: all .3s ease;	
+	z-index: 1000;
+}
 .video-wrapper {
 	margin-top: -140px;
 	margin-bottom: 10%;
 }
-
 .hm-zoom img{
 	width: 100%;
 	border-radius: 50%;
@@ -155,7 +169,6 @@ h6 {
 	text-transform: uppercase;
 	padding-bottom: 1px;
 }
-
 .product-description h6 {
 	font-style: inherit;
 	font-weight: 400;
@@ -241,7 +254,8 @@ h6 {
 	margin: auto 0;
 	height: 360px;
 	background: URL(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/15589621_1798399847093477_1092704647170781368_n.jpg?oh=2afe8b27e486a1f57074e3ef3c64387e&oe=597A6DA2) center center no-repeat;
-	background-size: cover; 
+	background-size: cover;
+	z-index: -1000;
 }
 .meet-hammie-wrapper .hammie-logo {
 	display: block;
@@ -364,7 +378,7 @@ h6 {
 	padding-top: 30%;
 }
 .philosophy-mozaic img {
-	padding-left: 7%;
+	padding-left: 4%;
 	max-width: 100%;
 	
 }
@@ -403,6 +417,12 @@ h6 {
 	filter: alpha(opacity=50);
 	zoom: 1; */
 }
+
+.footer-cover {
+	margin-bottom: -10px;
+}
+
+
 
 footer.hm-footer .about {
 	margin: 0 auto;
