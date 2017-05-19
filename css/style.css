@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body {
-  font-family: 'Nunito-black', sans-serif;
+  font-family: 'Nunito-Regular', 'Nunito-semi-bold', 'Nunito-bold' 'Nunito-black', sans-serif;
 }
 
 h1 {
@@ -19,16 +19,16 @@ h3 {
 }
 h4 {
 	font-size: 1.8em;
-	font-weight: 900;
+	font-weight: 600;
 }
 h5 {
 	font-size: 24px;
-	font-weight: 900;
+	font-weight: 600;
 	line-height: 1.1em;
 }
 h6 {
 	font-size: 20px;
-	font-weight: 900;
+	font-weight: 600;
 	line-height: 1.1em;
 }
 
@@ -52,6 +52,7 @@ h6 {
 	height: 80px;
 }
 .nav {
+	font-family: 'Nunito-black';
 	font-size: 1.6em;
 }
 .nav-li-a {
@@ -87,7 +88,17 @@ h6 {
 	background-color: rgba(255, 114, 143, 1.8);
 	transition: all .3s ease;
 }
+.shop-now-position {
+	display:scroll; 
+	position:fixed; 
+	margin-left: 35%; 
+	top: 50px; 
+	left: 50%;
+	z-index: 1000;
+}
+
 .shop-now-btn{
+	font-family: 'Nunito-black';
 	font-size: 1.8em;
 	display: inline-block;
 	color: white;
@@ -98,7 +109,6 @@ h6 {
 	margin-bottom: -0.55%;
 	background-color: rgba(255, 114, 143, 1.8);
 	transition: all .3s ease;	
-	z-index: 1000;
 }
 .video-wrapper {
 	margin-top: -140px;
@@ -153,7 +163,7 @@ h6 {
 .hammie-blocks p {
 	padding-top: 5%;
 	font-size: 1.3em;
-	font-weight: 900;
+	font-weight: 600;
 	color: #86cec5;
 }
 .hammie-blocks img {
@@ -197,7 +207,9 @@ h6 {
 	padding-top: 10%;
 }
 .building-with-p p{
-	text-align: ju
+	font-family: 'Nunito-Regular';
+	font-size: 1.3em;
+	text-align: justify;
 }
 .building-with-img img{
 	width: 100%;
@@ -211,13 +223,16 @@ h6 {
 	padding-top: 10%;
 }
 .coding-with-p p{
+	font-family: 'Nunito-Regular';
+	font-size: 1.3em;
 	text-align: justify;
 }
 .coding-with-img img {
 	width: 100%;
 }
 .more-orange-btn {
-	font-size: 1.1em;
+	font-size: 1.3em;
+	font-weight: 900;
 	display: block;
 	padding: 5px 3px 5px 3px;
 	width: 120px;
@@ -228,12 +243,14 @@ h6 {
 	transition: all .3s ease;
 }
 .more-orange-btn:hover {
-	font-size: 1.1em;
-	color: black;
+	font-size: 1.3em;
+	color: white;
+	text-decoration: none;
 	background-color: #f99426 ;
 }
 .more-blue-btn {
-	font-size: 1.1em;
+	font-size: 1.3em;
+	font-weight: 900;
 	display: block;
 	padding: 5px 3px 5px 3px;
 	width: 120px;
@@ -244,8 +261,9 @@ h6 {
 	transition: all .3s ease;
 }
 .more-blue-btn:hover {
-	font-size: 1.1em;
-	color: black;
+	font-size: 1.3em;
+	color: white;
+	text-decoration: none;
 	background-color: #0983B2;
 }
 
@@ -255,7 +273,6 @@ h6 {
 	height: 360px;
 	background: URL(https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/15589621_1798399847093477_1092704647170781368_n.jpg?oh=2afe8b27e486a1f57074e3ef3c64387e&oe=597A6DA2) center center no-repeat;
 	background-size: cover;
-	z-index: -1000;
 }
 .meet-hammie-wrapper .hammie-logo {
 	display: block;
@@ -276,7 +293,7 @@ h6 {
 	margin-top: 0.8em;
 }
 .shop-pink-btn {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	display: block;
 	padding: 10px 0px 12px;
 	width: 190px;
@@ -288,7 +305,10 @@ h6 {
 	transition: all .3s ease;
 }
 .shop-pink-btn:hover {
-	background-color: pink;
+	font-size: 1.8em;
+	color: white;
+	text-decoration: none;
+	background-color: #ff728f;
 }
 .philosophy-wrapper img{
 	width:100%;
@@ -318,9 +338,12 @@ h6 {
 	color: #2fb2bc;
 }
 .advantage-description h4 {
+	font-family: 'Nunito-semi-bold';
+	font-size: 2.5em;
 	color: #2fb2bc;	
 }
 .advantage-description p {
+	font-family: 'Nunito-Regular';
 	font-size: 1.4em;
 	color: #2fb2bc;
 }
@@ -422,8 +445,6 @@ h6 {
 	margin-bottom: -10px;
 }
 
-
-
 footer.hm-footer .about {
 	margin: 0 auto;
 	margin-top: 40px;
@@ -451,6 +472,7 @@ footer.hm-footer .about .social-media ul li a:hover {
 footer.hm-footer .footer-info-single {
 	margin-top: 30px; }
 footer.hm-footer .footer-info-single .title {
+	font-family: 'Nunito-black';
 	color: #505050;
 	text-transform: uppercase;
 	font-size: 16px;

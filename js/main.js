@@ -6,7 +6,16 @@ $(document).ready(function(){
 		else{
 			$("#shop-position").hide();	
 		}
-
+	/*
+	$('#shop-position').mouseover(function()) {
+		$('#shop-mouseover').hide();
+		$('#shop-mouseout').show();
+	}
+	$('#shop-position').mouseout(function()) {
+		$('#shop-mouseover').hide();
+		$('#shop-mouseout').show();
+	}
+*/
 	});
 	
 	$("#char22").hide();
@@ -33,8 +42,8 @@ $(document).ready(function(){
 		$("#char44").hide();
 	});
 	$('#char2').mouseout(function() {
-		$("#char11").show();
-		$("#char22").hide();
+		$("#char11").hide();
+		$("#char22").show();
 		$("#char33").hide();
 		$("#char44").hide();
 	});	$('#char3').mouseover(function() {
@@ -44,9 +53,9 @@ $(document).ready(function(){
 		$("#char44").hide();
 	});
 	$('#char3').mouseout(function() {
-		$("#char11").show();
+		$("#char11").hide();
 		$("#char22").hide();
-		$("#char33").hide();
+		$("#char33").show();
 		$("#char44").hide();
 	});	
 	$('#char4').mouseover(function() {
@@ -61,9 +70,6 @@ $(document).ready(function(){
 		$("#char33").hide();
 		$("#char44").show();
 	});
-
-
-
 
 
 })
